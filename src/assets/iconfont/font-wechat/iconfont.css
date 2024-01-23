@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1697874525356') format('truetype');
+}
+
+.iconfont-wechat {
+  font-family: "iconfont" !important;
+  font-size: 80rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wechat:before {
+  content: "\e73b";
+  color: green;
+  filter: drop-shadow(0px 4px 4px rgb(0, 112, 0));
+  background-color: pink;
+  border-radius: 100%;
+}
+
+/* .icon-wechat:before {
+  content: "\e65b";
+  color: green;
+  filter: drop-shadow(0px 4px 4px rgb(0, 112, 0));
+  background-color: white;
+  border-radius: 70%;
+} */
+

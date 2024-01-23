@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1696311404943') format('truetype');
+}
+
+
+.icon-triangleup:before {
+  content: "\e6e6";
+}
+

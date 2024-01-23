@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11559848",
+      "name": "WeChat微信",
+      "font_class": "WeChat",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}

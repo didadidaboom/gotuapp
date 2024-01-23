@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1696311364127') format('truetype');
+}
+
+.iconfont-caret-up {
+  font-family: "iconfont" !important;
+  font-size: 30rpx;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-caret-up:before {
+  content: "\e6ee";
+  color:#5EC9C1s;
+  /* color: white; */
+}
+

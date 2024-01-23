@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1697980581998') format('truetype');
+}
+
+.icon-help:before {
+  content: "\e619";
+  color: white;
+}
+
+.icon-help-hover:before {
+  content: "\e619";
+  color: pink;
+}
+
+

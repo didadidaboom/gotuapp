@@ -1,0 +1,16 @@
+{
+  "projectname": "gotuapp",
+  "description": "gotu@她的小纸条",
+  "appid": "wx3a0fb2821b301faa",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false
+  },
+  "compileType": "miniprogram"
+}

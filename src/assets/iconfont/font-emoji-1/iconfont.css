@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1698125924085') format('truetype');
+}
+
+.iconfont-emoji {
+  font-family: "iconfont" !important;
+  font-size: 96PX;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-emoji-1:before {
+  content: "\eac3";
+  color: #f4ea2a;
+}
+

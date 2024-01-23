@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1698084170469') format('truetype');
+}
+
+.iconfont-add {
+  font-family: "iconfont" !important;
+  font-size: 80px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "\e61d";
+  color:#FDBA74;
+}
+
+.icon-add-hover:before {
+  content: "\e61d";
+  color: pink;
+}
+

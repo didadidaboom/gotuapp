@@ -1,0 +1,84 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/components';
+
+@import "~taro-ui/dist/style/index.scss";
+@import './styles/main.scss';
+
+//=======iconfont==========
+//icofont.com
+@import './assets/iconfont/icofont-sort-down/icofont.min.css';
+@import './assets/iconfont/icofont-heartEye/icofont.min.css';
+@import './assets/iconfont/iconfont-heartbreak/icofont.min.css';
+//iconfont.cn
+@import './assets/iconfont/font-check-circle-fill/iconfont.css';
+@import './assets/iconfont/font-delete/iconfont.css';
+@import './assets/iconfont/font-phone/iconfont.css';
+@import './assets/iconfont/font-wechat/iconfont.css';
+@import './assets/iconfont/font-sort-down/iconfont.css';
+@import './assets/iconfont/font-key/iconfont.css';
+@import './assets/iconfont/font-close/iconfont.css';
+@import './assets/iconfont/font_caret_up/iconfont.css';
+@import './assets/iconfont/font_triangleup/iconfont.css';
+@import './assets/iconfont/font-help-waring/iconfont.css';
+@import './assets/iconfont/font-search/iconfont.css';
+@import './assets/iconfont/font-add/iconfont.css';
+@import './assets/iconfont/font-emoji-1/iconfont.css';
+
+
+
+$color-brand: #C93E3E !default;
+$color-brand-light: #C93E3E !default;
+$color-brand-dark: #C93E3E !default;
+
+@import "./styles/base/setting";
+
+::-webkit-scrollbar {
+  display:none;
+  width:0;
+  height:0;
+  color:transparent;
+}
+
+// 重写 taro-ui modal 组件
+.at-modal__container {
+    background: $color-bg-element;
+    border-radius: 20px;
+    width: 530px;
+    .at-modal__header {
+        padding: 40px 50px 0px 50px;
+        font-size: 32px;
+        color: $color-text-primary;
+        line-height: 44px;
+        border-bottom: 0;
+        font-weight: bold;
+        &::after {
+            display: none;
+        }
+        &.no-content {
+            padding-bottom: 40px;
+        }
+    }
+    .at-modal__content {
+        padding: 40px 30px;
+        font-size: 28px;
+        color: $color-text-description;
+        text-align: center;
+        line-height: 44px;
+    }
+    .at-modal__footer {
+        &::before {
+            border-top: 1PX solid $color-line;
+        }
+        .at-modal__action {
+            .default {
+                font-size: 32px;
+                color: $color-text-description-s;
+            }
+            .action {
+                color: $color-brand-color;
+                font-size: 32px;
+            }
+        }
+    }
+}

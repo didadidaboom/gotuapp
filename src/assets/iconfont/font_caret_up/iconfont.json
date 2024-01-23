@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9788136",
+      "name": "caret-up",
+      "font_class": "caret-up",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    }
+  ]
+}

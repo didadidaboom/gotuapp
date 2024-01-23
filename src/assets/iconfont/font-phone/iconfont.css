@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1693642234719') format('truetype');
+}
+
+
+.icon-iphones:before {
+  content: "\e8be";
+  color: gray;
+}
+

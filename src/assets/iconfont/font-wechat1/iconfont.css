@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1693648317487') format('truetype');
+}
+
+.iconfont-wechat {
+  font-family: "iconfont" !important;
+  font-size: 80rpx;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-wechat:before {
+  content: "\e65b";
+  color: green;
+  filter: drop-shadow(0px 4px 4px rgb(0, 112, 0));
+  background-color: white;
+  border-radius: 70%;
+}
+
+.icon-wechat-hover:before {
+  content: "\e65b";
+  color: green;
+  filter: drop-shadow(0px 4px 4px rgb(0, 112, 0));
+  background-color: pink;
+  border-radius: 70%;
+}
+

@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1048872",
+      "name": "帮助",
+      "font_class": "icon_help",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}

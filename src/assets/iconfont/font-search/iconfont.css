@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1698009178336') format('truetype');
+}
+
+
+
+.icon-search:before {
+  content: "\e60f";
+  color: gray;
+}
+
+.icon-search-hover:before {
+  content: "\e60f";
+  color: pink;
+}
+

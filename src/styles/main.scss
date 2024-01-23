@@ -1,0 +1,67 @@
+@import './base/mixin.scss',
+        './base/setting.scss';
+
+@import './navbar.scss';
+
+
+$image-folder: "../../assets/bg";
+$image-package-folder: "../../../assets/bg";
+
+// $image-files: "arm-cat-lower.png", "brace-cat-lower.png", "carrying-cat-lower.png", "four-cat-lower.png", "hold-cat-lower.png", "hug-cat-lower.png", "kiss-cat-lower.png", "look-cat-lower.png", "pose-cat-lower.png", "stare-cat-lower.png", "two-cat-lower.png";
+// $image-files: "arm-cat-lower.png", "brace-cat-lower.png", "carrying-cat-lower.png", "four-cat-lower.png", "hold-cat-lower.png", "hug-cat-lower.png", "kiss-cat-lower.png", "look-cat-lower.png", "play-cat-lower.png", "pose-cat-lower.png", "stare-cat-lower.png", "two-cat-lower.png";
+$image-files: "arm-cat-lower.png", "brace-cat-lower.png", "carrying-cat-lower.png", "four-cat-lower.png", "hold-cat-lower.png";
+
+
+.View-hover{
+  background-color: pink;
+}
+
+.Text-hover{
+  color: pink;
+}
+
+.View-shadow{
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #4B9690;
+}
+
+.Background-color-hover{
+  background-color: pink;
+}
+
+.View-filter-shadow{
+  filter: drop-shadow(0px 4px 10px #4B9690);
+}
+
+.Text-shadow{
+  text-shadow: 4px 4px 4px #4B9690;
+}
+
+.Button-shadow{
+  // border-radius: 80rpx;
+  // line-height: 80rpx;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx #4B9690;
+  // filter: drop-shadow(0px 4px 10px #4B9690);
+}
+
+// .Button-shadow{
+//   border-radius: 80rpx;
+//   line-height: 80rpx;
+//   box-shadow: 5rpx 5rpx 5rpx 5rpx #4B9690;
+//   filter: drop-shadow(0px 4px 10px #4B9690);
+// }
+
+// .Button-shadow-hover{
+//   border-radius: 80rpx;
+//   line-height: 80rpx;
+//   background-color:pink;
+//   // box-shadow: 5rpx 5rpx 5rpx 5rpx #4B9690;
+//   filter: drop-shadow(0px 4px 10px #4B9690);
+// }
+
+.Button-hover{
+  // border-radius: 80rpx;
+  // line-height: 80rpx;
+  background-color:pink;
+  // box-shadow: 5rpx 5rpx 5rpx 5rpx #4B9690;
+  // filter: drop-shadow(0px 4px 10px #4B9690);
+}

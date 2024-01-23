@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15685570",
+      "name": "三角形_上",
+      "font_class": "sanjiaoxing_shang",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    }
+  ]
+}

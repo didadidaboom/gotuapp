@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="38" viewBox="0 0 200 38" version="1.1">
+    <title>路径备份</title>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9">
+        <path d="M0,38 C51.08754,38 58.08634,0 100,0 C141.91366,0 154.54939,38 200,38 L0,38 Z" id="路径备份" fill="#FFFFFF" filter="url(#filter-1)" transform="translate(100.000000, 19.000000) scale(1, -1) translate(-100.000000, -19.000000) "/>
+    </g>
+</svg>

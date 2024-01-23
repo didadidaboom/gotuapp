@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1693985251082') format('truetype');
+}
+
+/* .iconfont {
+  font-family: "iconfont" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+} */
+
+.icon-key:before {
+  content: "\e63c";
+  color: gray;
+}
+
+.icon-key-hover:before {
+  content: "\e63c";
+  color: pink;
+}
+
+
